@@ -1,21 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package shape2d;
 
-/**
- *
- * @author LENOVO
- */
 public class Shape2D {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    double panjang;
+    double tinggi;
+    double lebar;
+
+    double luas (double panjang,double lebar) {
+        return panjang*lebar;
     }
-    
+    double keliling (double panjang,double lebar){
+        return 2*(panjang+lebar);
+    }
 }
