@@ -11,6 +11,11 @@ public class Segitiga extends Shape2D {
         return 0.5 * alas * tinggi;
     }
 
+    @Override
+    void print() {
+        System.out.println("Rumus luas segitiga adalah 0.5 *alas*tinggi");
+    }
+
 }
 
 

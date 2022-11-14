@@ -1,6 +1,6 @@
 package shape2d;
 
-public class Shape2D {
+public abstract class Shape2D extends Shape{
 
     double panjang;
     double tinggi;
